@@ -1,7 +1,7 @@
 # string2numbr
 Coding Test LC
 
-/*
+```
  A TTS system can only consume numbers in their spoken form. In a typical text, numbers appear in their digit form.
 Convert numbers from digit form to their spoken form.
 E.g.
@@ -15,4 +15,4 @@ E.g.
 
 // max "999 999 999 999" 999 billion ..
 // only positive and 0
-*/
+```
