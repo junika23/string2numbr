@@ -55,6 +55,7 @@ const std::vector<std::string> TEEN = { "",
     "nineteen"
 };
 
+// Source: Stackoverflow
 // trim from start (in place)
 static inline void ltrim(std::string &s) {
     s.erase(s.begin(), std::find_if(s.begin(), s.end(), [](unsigned char ch) {
@@ -62,6 +63,7 @@ static inline void ltrim(std::string &s) {
     }));
 }
 
+// Source: Stackoverflow
 // trim from end (in place)
 static inline void rtrim(std::string &s) {
     s.erase(std::find_if(s.rbegin(), s.rend(), [](unsigned char ch) {
@@ -69,6 +71,7 @@ static inline void rtrim(std::string &s) {
     }).base(), s.end());
 }
 
+// Source: Stackoverflow
 // trim from both ends (in place)
 static inline void trim(std::string &s) {
     ltrim(s);
