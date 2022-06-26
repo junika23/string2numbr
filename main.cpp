@@ -164,7 +164,7 @@ std::string get_3digit(const std::string& input)
 }
 
 int main(int argc, const char * argv[]) {
-    std::string res = get_3digit("1111111320654");
+    std::string res = get_3digit("111320654");
     std::cout << res << std::endl;
     return 0;
 }
